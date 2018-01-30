@@ -1,0 +1,52 @@
+/* Icon wrapper */
+.mg-icon-wrap:hover {
+    -webkit-transition: 1.0s;
+    -o-transition: 1.0s;
+    transition: 1.0s;
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    color: #ffff00;
+}
+
+/* Button */
+.mg-button,
+.mg-button:focus,
+.mg-button:visited {
+    color: #fff;
+    font-family: "Aclonica", cursive;
+    background-color: rgba(0,0,0,0);
+    border-color: #ffffff;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ffff00;
+            box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ffff00;
+}
+
+.mg-button:hover {
+    background-color: rgba(0,0,0,0);
+    border-color: #ffffff;
+    -webkit-box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ffff00 , 0 0 1.2em #ffff00 , 0 0 1.4em #ffff00 , 0 0 1.6em #ffff00;
+            box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ffff00 , 0 0 1.2em #ffff00 , 0 0 1.4em #ffff00 , 0 0 1.6em #ffff00;
+}
+
+.mg-button:active {
+    background-color: rgba(0,0,0,0);
+    border-color: #ffffff;
+    -webkit-box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #00ffff , 0 0 1.2em #00ffff , 0 0 1.4em #00ffff , 0 0 1.6em #00ffff;
+            box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #00ffff , 0 0 1.2em #00ffff , 0 0 1.4em #00ffff , 0 0 1.6em #00ffff;
+}
+
+/* Glow effect */
+.mg-box-glow {
+    -webkit-box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ffff00, 0 0 2em #ffff00;
+            box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ffff00, 0 0 2em #ffff00;
+}
+
+.mg-text-glow {
+    color: rgba(255,255,255,1);
+    text-shadow: 0 0 0.05em rgba(255,255,255,1) , 0 0 0.1em rgba(255,255,255,1), 0 0 0.2em rgba(255,255,255,1) , 0 0 0.4em #ffff00 , 0 0 0.6em #ffff00, 0 0 8em #ffff00;
+}
+
+.mg-big-glow {
+    color: rgba(255,255,255,1);
+    text-shadow: 0 0 0.1em rgba(255,255,255,1) , 0 0 0.2em rgba(255,255,255,1), 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em #ffff00 , 0 0 0.8em #ffff00, 0 0 1em #ffff00 , 0 0 1.2em #ffff00 ;
+};

@@ -1,0 +1,198 @@
+/*
+CONTENTS
+- Fonts
+- Typography
+- Body background
+- hr
+- Card
+- Carousel caption
+- Black and White filter
+- Navbar
+- Section spacer
+- Jumbotron
+- Image
+- Section background
+- Icon wrapper
+- Button
+- Glow effect
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Warnes|Yrsa|Aclonica|Oxygen+Mono');
+
+/* Typography */
+body {
+    font-family: 'Yrsa', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+dl {
+    font-family: "Aclonica", cursive;
+}
+
+.mg-font-mono {
+    font-family: "Oxygen Mono", monospace;
+}
+
+.mg-big-glow {
+    font-family: "Warnes", cursive;
+}
+
+/* Body background */
+body {
+    background-image: url("../assets/images/bg-guitar.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* hr */
+hr {
+    border-width: thin;
+    border-color: #ffffff;
+    border-radius: 0.5em;
+}
+
+/* Card*/
+.card {
+    border: solid 1px;
+    border-color: #ffffff;
+    border-radius: 2em !important;
+}
+
+/* Carousel caption */
+.mg-carousel-caption {
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+/* Black and White filter*/
+img,
+iframe {
+    -webkit-filter: grayscale(100%);
+
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+img:hover,
+iframe:hover {
+    -webkit-transition: 1.0s;
+    -o-transition: 1.0s;
+    transition: 1.0s;
+    -webkit-filter: grayscale(0%);
+
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+/* Navbar */
+.mg-navbar-border {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+}
+
+#mg-navbar-1-2 {
+    background-color: rgba(0,0,0,0.8) !important;
+}
+
+
+
+/* Section spacer */
+.mg-spacer {
+    height: 6rem;
+}
+
+@media (min-width:768px){
+    .mg-spacer {
+        height: 12rem;
+    }
+}
+
+/* Jumbotron */
+.jumbotron {
+    border-radius: 0px;
+}
+
+/* Image */
+.mg-image {
+    border: solid 1px;
+    border-color: #ffffff;
+    border-radius: 2em !important;
+    margin: 0.5rem;
+}
+
+/* Section background */
+.mg-section-bg-1 {
+    background-image: url("../assets/images/bg-header.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Icon wrapper */
+.mg-icon-wrap:hover {
+    -webkit-transition: 1.0s;
+    -o-transition: 1.0s;
+    transition: 1.0s;
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    color: #ff00ee;
+}
+/* Button */
+.mg-button,
+.mg-button:focus,
+.mg-button:visited {
+    color: #fff;
+    font-family: "Aclonica", cursive;
+    background-color: rgba(0,0,0,0);
+    border-color: #ffffff;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ff00ee;
+            box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ff00ee;
+}
+
+.mg-button:hover {
+    background-color: rgba(0,0,0,0);
+    border-color: #ffffff;
+    -webkit-box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ff00ee , 0 0 1.2em #ff00ee , 0 0 1.4em #ff00ee , 0 0 1.6em #ff00ee;
+            box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ff00ee , 0 0 1.2em #ff00ee , 0 0 1.4em #ff00ee , 0 0 1.6em #ff00ee;
+}
+
+.mg-button:active {
+    background-color: rgba(0,0,0,0);
+    border-color: #ffffff;
+    -webkit-box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #00ffff , 0 0 1.2em #00ffff , 0 0 1.4em #00ffff , 0 0 1.6em #00ffff;
+            box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #00ffff , 0 0 1.2em #00ffff , 0 0 1.4em #00ffff , 0 0 1.6em #00ffff;
+}
+
+/* Glow effect */
+.mg-box-glow {
+    -webkit-box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ff00ee, 0 0 2em #ff00ee;
+            box-shadow: 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em rgba(255,255,255,1) , 0 0 0.8em rgba(255,255,255,1) , 0 0 1em #ff00ee, 0 0 2em #ff00ee;
+}
+
+.mg-text-glow {
+    color: rgba(255,255,255,1);
+    text-shadow: 0 0 0.05em rgba(255,255,255,1) , 0 0 0.1em rgba(255,255,255,1), 0 0 0.2em rgba(255,255,255,1) , 0 0 0.4em #ff00ee , 0 0 0.6em #ff00ee, 0 0 8em #ff00ee;
+}
+
+.mg-big-glow {
+    color: rgba(255,255,255,1);
+    text-shadow: 0 0 0.1em rgba(255,255,255,1) , 0 0 0.2em rgba(255,255,255,1), 0 0 0.4em rgba(255,255,255,1) , 0 0 0.6em #ff00ee , 0 0 0.8em #ff00ee, 0 0 1em #ff00ee , 0 0 1.2em #ff00ee ;
+};

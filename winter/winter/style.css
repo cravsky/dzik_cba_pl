@@ -1,0 +1,35 @@
+body {
+    font-family: 'Spectral SC', serif;
+    background-image: url('assets/images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-shadow: 5px 5px 2px #122953, 0 0 10px darkblue;
+}
+
+.item-hl {
+    text-align: center;
+    border: outset 5px;
+    width: 100px;
+    font-family: sans-serif;
+}
+
+.modal {
+    text-shadow: none;
+}
+
+.btn-primary {
+    background-color: #203560;
+    border: none;
+}
+
+.bounce {
+    -webkit-animation: bounce 5s;
+    /* Safari 4+ */
+    -moz-animation: bounce 5s;
+    /* Fx 5+ */
+    -o-animation: bounce 5s;
+    /* Opera 12+ */
+    animation: bounce 5s;
+    /* IE 10+, Fx 29+ */
+}

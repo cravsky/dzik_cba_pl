@@ -1,0 +1,21 @@
+Credits  and  Licenses
+
+--------------------------------------------
+Framework:
+ Bootstrap 4 / MIT
+
+Image:
+ Pexels.com - pexels-photo-263929 / CC0
+
+Font:
+  Google Fonts - Spectral SC/ OFL
+
+Icons:
+  Font  Awesome Free / CC by 4.0
+
+Animations:
+  Animate.css/ MIT
+
+JS Scripts:
+  (licenses at the top of the js files)
+ 

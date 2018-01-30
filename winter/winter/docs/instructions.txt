@@ -1,0 +1,37 @@
+Thank you for purchasing : 
+WinterIsComing - Coming Soon Bootstrap 4 Template
+
+Technology 
+The template is based on the Bootstrap 4 framework (version v4.0.0-beta.2).
+https://getbootstrap.com/
+
+Editing
+1) Open index.html
+2) Modify appropriate part of the code.
+Notice that html tags utilize bootstrap 4 classes.
+List and description of the classes may be found here:
+https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/
+
+Example <div class="p-1 m-2 item-hl">
+p-1 - padding size 1  (BS4 class)
+m-2 margin size 2 (BS4 class)
+item-hl (custom class)
+
+Styling:
+1) Opent style.css file. 
+2) Modify appropriate CSS rules.
+Notice that default styling is defined in: bootstrap/css/bootstrap.css. Changing bootstrap.css is not recommended.
+
+Setting counters:
+1) Open assets/counter.js:
+2) Set the final date in the line
+var countDownDate = new Date("March 2, 2018 12:00:00").getTime();
+
+Good luck, I hope that theme will serve you well,
+                                                                    Cravsky
+
+
+P.S. I would love to see your final build, please share the link in the comments.
+ 
+
+

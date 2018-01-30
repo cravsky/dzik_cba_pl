@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Interactive form that sends data to the server">
+        <meta name="author" content="KK">
+        <title>iForm</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Interactive Form</h1>
+        </header>
+        <section>
+            <p>Data from the form is send to the server and saved in the *.txt file</p>
+            <ul>
+                <b>Technologies used</b>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+        <section>
+            <form action="script.php" method="post">
+                <fieldset>
+                    <legend>
+                        Personal Info
+</legend>
+                    <b>Name</b>
+                    <br>
+                    First Name&nbsp;
+                    <input type="text" name="fname" required>
+                    <br> Last Name &nbsp;
+                    <input type="text" name="lname" required>
+                    <br>
+                    <b>Gender</b>
+                    <br>
+                    Male&nbsp;
+                    <input type="radio" name="gender" value="male" required>
+                    <br>Female
+                    <input type="radio" name="gender" value="female">
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <p>Additional info</p>
+                    </legend>
+                    Age &nbsp
+                    <input type="number" name="age" min="1" max="120">
+                    <br>
+                    Pick a color
+                    <input type="color" name="color">
+                    <br>
+                    Set a slider 
+                    <input type="range" name="slider">
+                </fieldset>
+                <input type="reset"> 
+                <input type="submit"> 
+            </form>
+        </section>
+        <footer>
+            <h5>Created by KK</h5>
+        </footer>
+    </body>
+</html>

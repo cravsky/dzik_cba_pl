@@ -1,0 +1,32 @@
+*** NEXT USER ***
+First name: Jan 
+Last name: Bomba
+Gender: male
+Age: 56
+Color: #0000f9
+Slider position: 11
+
+*** NEXT USER ***
+First name: Simon
+Last name: Reel
+Gender: male
+Age: 60
+Color: #ff4fff
+Slider position: 85
+
+*** NEXT USER ***
+First name: Adam
+Last name: Nowak
+Gender: male
+Age: 21
+Color: #ffff00
+Slider position: 59
+
+*** NEXT USER ***
+First name: Ewa
+Last name: Kowalewska
+Gender: female
+Age: 40
+Color: #4dfc43
+Slider position: 100
+

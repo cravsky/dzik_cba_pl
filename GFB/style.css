@@ -1,0 +1,46 @@
+body{
+    font-family: "Alegreya", serif;
+    background-image: url('images/bakery/background.jpg');background-size: cover;background-position: center center;background-attachment: fixed;
+}
+hr{
+    border-color: #8b6f47;
+}
+h1, h2, h3, h4, h5, h6, p{  
+    color: #4f3222;
+}
+.well{
+    background-color: #FCE1B2;margin-bottom: 20px;margin-top: 60px;border: none;border-radius:20px;
+}.navbar-default .navbar-toggle{
+    border:none;background-color:#4f3222;color:#fce1b2;
+}
+.navbar-default .navbar-brand{
+    color:#fce1b2;background-color:#4f3222;
+}
+.navbar-default .navbar-nav>li>a {
+    color:#fce1b2;background-color:#4f3222;
+}
+.navbar-default .navbar-collapse,.navbar-default .navbar-form {
+    color:#fce1b2;
+    background-color:#4f3222;
+}
+footer, footer a{
+    color:#fce1b2;
+    background-color:#4f3222;
+}
+.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{
+    color:#fce1b2;background-color:transparent;font-weight:bold;
+}
+@media(min-width:768px){
+    .navbar>.container .navbar-brand,.navbar>.container-fluid .navbar-brand{
+        margin-left:0px;
+    }
+}
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{
+    color:#fce1b2;background-color:transparent;font-weight:bold;
+}
+a:focus,a:hover{
+    color:#fce1b2;text-decoration:none;font-weight:bold;
+}.container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{
+    background-color:#4f3222;
+    padding-right:20px;
+}	
